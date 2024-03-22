@@ -1,0 +1,6 @@
+../Src/usbd_dfu_if.c:258:10:MEM_If_Read_FS	2
+../Src/usbd_dfu_if.c:276:10:MEM_If_GetStatus_FS	1
+../Src/usbd_dfu_if.c:233:10:MEM_If_Write_FS	4
+../Src/usbd_dfu_if.c:209:10:MEM_If_Erase_FS	1
+../Src/usbd_dfu_if.c:196:10:MEM_If_DeInit_FS	1
+../Src/usbd_dfu_if.c:183:10:MEM_If_Init_FS	1
