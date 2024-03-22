@@ -9,4 +9,7 @@ ffasdfasdfdsf
 aasd
 
 
-유하람 : 항브랜치와 main merge 후 main에서 새로운 수정
+유하람 : 
+main은 그냥 따로 두고
+develop 위에서 각자 브랜치가 나누어지는 것이 나아보임
+main에서 브랜치가 나뉘어지면 fast forward되면서 각자의 branch가 main처럼 보이기도 함
