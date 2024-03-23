@@ -1,0 +1,12 @@
+{
+    "makefile.configurations": [
+        {
+            "name": "build",
+            "makeArgs":["-j20"]
+        }
+    ],   
+    "makefile.makeDirectory" : "Debug",
+    "makefile.compileCommandsPath": "Debug/compile_commands.json"
+
+
+}

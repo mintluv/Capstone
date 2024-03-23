@@ -1,0 +1,134 @@
+18:22:44 **** Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/hw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_L432KC -DSTM32L4 -DSTM32 -DSTM32L432KCUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/hw.d" -MT"src/hw/hw.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/hw.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"src/bsp/startup/startup_stm32l432kcux.d" -MT"src/bsp/startup/startup_stm32l432kcux.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/startup/startup_stm32l432kcux.o" "../src/bsp/startup/startup_stm32l432kcux.s"
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_L432KC -DSTM32L4 -DSTM32 -DSTM32L432KCUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+arm-none-eabi-gcc "../src/bsp/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_L432KC -DSTM32L4 -DSTM32 -DSTM32L432KCUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/syscalls.d" -MT"src/bsp/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/syscalls.o"
+arm-none-eabi-gcc "../src/bsp/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_L432KC -DSTM32L4 -DSTM32 -DSTM32L432KCUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/sysmem.d" -MT"src/bsp/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/sysmem.o"
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_L432KC -DSTM32L4 -DSTM32 -DSTM32L432KCUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_L432KC -DSTM32L4 -DSTM32 -DSTM32L432KCUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+In file included from ../src/hw/hw.h:11,
+                 from ../src/hw/hw.c:7:
+../src/hw/hw_def.h:12:10: fatal error: def.h: No such file or directory
+   12 | #include "def.h"
+      |          ^~~~~~~
+compilation terminated.
+In file included from ../src/bsp/bsp.c:9:
+../src/bsp/bsp.h:11:10: fatal error: def.h: No such file or directory
+   11 | #include "def.h"
+      |          ^~~~~~~
+compilation terminated.
+In file included from ../src/ap/ap.c:9:
+../src/ap/ap.h:11:10: fatal error: hw.h: No such file or directory
+   11 | #include "hw.h"
+      |          ^~~~~~
+In file included from ../src/main.c:8:
+../src/main.h:11:10: fatal error: ap.h: No such file or directory
+   11 | #include "ap.h"
+      |          ^~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [src/hw/subdir.mk:19: src/hw/hw.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [src/bsp/subdir.mk:25: src/bsp/bsp.o] Error 1
+make: *** [src/subdir.mk:19: src/main.o] Error 1
+make: *** [src/ap/subdir.mk:19: src/ap/ap.o] Error 1
+Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
+make: *** [makefile:89: fail-specified-linker-script-missing] Error 2
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:26:07 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/hw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/hw.d" -MT"src/hw/hw.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/hw.o"
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+arm-none-eabi-gcc "../src/bsp/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/syscalls.d" -MT"src/bsp/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/syscalls.o"
+arm-none-eabi-gcc "../src/bsp/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/sysmem.d" -MT"src/bsp/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/sysmem.o"
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+../src/main.c:12:1: error: unknown type name 'inr'; did you mean 'int'?
+   12 | inr main(void){
+      | ^~~
+      | int
+../src/main.c: In function 'main':
+../src/main.c:16:3: warning: implicit declaration of function 'apMain'; did you mean 'apmain'? [-Wimplicit-function-declaration]
+   16 |   apMain();
+      |   ^~~~~~
+      |   apmain
+make: *** [src/subdir.mk:19: src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:26:29 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:16:3: warning: implicit declaration of function 'apMain'; did you mean 'apmain'? [-Wimplicit-function-declaration]
+   16 |   apMain();
+      |   ^~~~~~
+      |   apmain
+arm-none-eabi-gcc -o "L432.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\capstone\L432\src\bsp\ldscripit\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L432.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L432.elf
+ 
+arm-none-eabi-size  L432.elf 
+arm-none-eabi-objdump -h -S L432.elf  > "L432.list"
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 
+Finished building: L432.list
+ 
+18:27:07 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "L432.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\capstone\L432\src\bsp\ldscripit\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L432.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L432.elf
+ 
+arm-none-eabi-size  L432.elf 
+arm-none-eabi-objdump -h -S L432.elf  > "L432.list"
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 
+Finished building: L432.list
+ 
+18:28:07 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 
+18:33:35 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 
+18:37:28 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 
+18:39:00 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 
+18:40:56 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 
+18:42:02 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+    716	      8	   1568	   2292	    8f4	L432.elf
+Finished building: default.size.stdout
+ 

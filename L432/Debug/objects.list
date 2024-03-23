@@ -1,0 +1,7 @@
+"./src/ap/ap.o"
+"./src/bsp/bsp.o"
+"./src/bsp/syscalls.o"
+"./src/bsp/sysmem.o"
+"./src/bsp/startup/startup_stm32l432kcux.o"
+"./src/hw/hw.o"
+"./src/main.o"
