@@ -1,0 +1,20 @@
+{
+    "makefile.configurations": [
+        {
+            "name": "build",
+            "makeArgs":["-j20"]
+        }
+    ],   
+    "makefile.makeDirectory" : "L432/Debug",
+    "makefile.compileCommandsPath": "Debug/compile_commands.json",
+    "files.associations": {
+        "main.h": "c",
+        "ap.h": "c",
+        "hw.h": "c",
+        "hw_def.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "makefile.makefilePath": "Debug"
+
+
+}

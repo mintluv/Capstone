@@ -1,3 +1,6 @@
 ../src/bsp/bsp.c:11:6:bspInit	1
-../src/bsp/bsp.c:15:6:delay	1
-../src/bsp/bsp.c:19:10:millis	1
+../src/bsp/bsp.c:49:6:delay	1
+../src/bsp/bsp.c:53:10:millis	1
+../src/bsp/bsp.c:60:6:SystemClock_Config	4
+../src/bsp/bsp.c:118:6:HAL_TIM_PeriodElapsedCallback	2
+../src/bsp/bsp.c:135:6:Error_Handler	1

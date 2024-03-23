@@ -1,0 +1,32 @@
+[
+    {
+        "command": "arm-none-eabi-gcc \"../src/hw/hw.c\" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I\"C:/capstone/L432/src\" -I\"C:/capstone/L432/src/ap\" -I\"C:/capstone/L432/src/bsp\" -I\"C:/capstone/L432/src/common\" -I\"C:/capstone/L432/src/hw\" -I\"C:/capstone/L432/src/lib\" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF\"src/hw/hw.d\" -MT\"src/hw/hw.o\" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o \"src/hw/hw.o\"\r",
+        "directory": "c:/capstone/L432/Debug",
+        "file": "c:\\capstone\\L432\\src\\hw\\hw.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc \"../src/bsp/bsp.c\" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I\"C:/capstone/L432/src\" -I\"C:/capstone/L432/src/ap\" -I\"C:/capstone/L432/src/bsp\" -I\"C:/capstone/L432/src/common\" -I\"C:/capstone/L432/src/hw\" -I\"C:/capstone/L432/src/lib\" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF\"src/bsp/bsp.d\" -MT\"src/bsp/bsp.o\" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o \"src/bsp/bsp.o\"\r",
+        "directory": "c:/capstone/L432/Debug",
+        "file": "c:\\capstone\\L432\\src\\bsp\\bsp.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc \"../src/bsp/syscalls.c\" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I\"C:/capstone/L432/src\" -I\"C:/capstone/L432/src/ap\" -I\"C:/capstone/L432/src/bsp\" -I\"C:/capstone/L432/src/common\" -I\"C:/capstone/L432/src/hw\" -I\"C:/capstone/L432/src/lib\" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF\"src/bsp/syscalls.d\" -MT\"src/bsp/syscalls.o\" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o \"src/bsp/syscalls.o\"\r",
+        "directory": "c:/capstone/L432/Debug",
+        "file": "c:\\capstone\\L432\\src\\bsp\\syscalls.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc \"../src/bsp/sysmem.c\" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I\"C:/capstone/L432/src\" -I\"C:/capstone/L432/src/ap\" -I\"C:/capstone/L432/src/bsp\" -I\"C:/capstone/L432/src/common\" -I\"C:/capstone/L432/src/hw\" -I\"C:/capstone/L432/src/lib\" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF\"src/bsp/sysmem.d\" -MT\"src/bsp/sysmem.o\" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o \"src/bsp/sysmem.o\"\r",
+        "directory": "c:/capstone/L432/Debug",
+        "file": "c:\\capstone\\L432\\src\\bsp\\sysmem.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc \"../src/ap/ap.c\" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I\"C:/capstone/L432/src\" -I\"C:/capstone/L432/src/ap\" -I\"C:/capstone/L432/src/bsp\" -I\"C:/capstone/L432/src/common\" -I\"C:/capstone/L432/src/hw\" -I\"C:/capstone/L432/src/lib\" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF\"src/ap/ap.d\" -MT\"src/ap/ap.o\" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o \"src/ap/ap.o\"\r",
+        "directory": "c:/capstone/L432/Debug",
+        "file": "c:\\capstone\\L432\\src\\ap\\ap.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc \"../src/main.c\" -mcpu=cortex-m4 -std=gnu11 -g3 -c -I\"C:/capstone/L432/src\" -I\"C:/capstone/L432/src/ap\" -I\"C:/capstone/L432/src/bsp\" -I\"C:/capstone/L432/src/common\" -I\"C:/capstone/L432/src/hw\" -I\"C:/capstone/L432/src/lib\" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF\"src/main.d\" -MT\"src/main.o\" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o \"src/main.o\"\r",
+        "directory": "c:/capstone/L432/Debug",
+        "file": "c:\\capstone\\L432\\src\\main.c"
+    }
+]

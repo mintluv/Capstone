@@ -26,5 +26,6 @@ src/ap \
 src/bsp \
 src/bsp/startup \
 src/hw \
+src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src \
 src \
 
