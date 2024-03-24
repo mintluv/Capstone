@@ -28,7 +28,8 @@ src/bsp/stm32l4xx_it.o: ../src/bsp/stm32l4xx_it.c \
  C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
  C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- ../src/bsp/stm32l4xx_it.h
+ C:/capstone/L432/src/common/hw/include/led.h \
+ C:/capstone/L432/src/hw/hw_def.h ../src/bsp/stm32l4xx_it.h
 C:/capstone/L432/src/main.h:
 C:/capstone/L432/src/ap/ap.h:
 C:/capstone/L432/src/hw/hw.h:
@@ -61,4 +62,6 @@ C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_h
 C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
 C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
+C:/capstone/L432/src/common/hw/include/led.h:
+C:/capstone/L432/src/hw/hw_def.h:
 ../src/bsp/stm32l4xx_it.h:

@@ -10,11 +10,17 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk
+-include src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk
+-include src/lib/Cube_L432k/Debug/Core/Startup/subdir.mk
+-include src/lib/Cube_L432k/Debug/Core/Src/subdir.mk
+-include src/lib/Cube_L432k/Debug/subdir.mk
+-include src/hw/driver/subdir.mk
 -include src/hw/subdir.mk
 -include src/bsp/startup/subdir.mk
 -include src/bsp/subdir.mk
 -include src/ap/subdir.mk
 -include src/subdir.mk
+-include .metadata/.plugins/org.eclipse.cdt.make.core/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)

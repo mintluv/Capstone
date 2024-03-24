@@ -11,7 +11,11 @@
         "main.h": "c",
         "ap.h": "c",
         "hw.h": "c",
-        "hw_def.h": "c"
+        "hw_def.h": "c",
+        "stdint.h": "c",
+        "stm32l4xx_hal_def.h": "c",
+        "bsp.h": "c",
+        "stm32l4xx_hal.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "makefile.makefilePath": "Debug"

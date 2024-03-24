@@ -22,10 +22,16 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+.metadata/.plugins/org.eclipse.cdt.make.core \
 src/ap \
 src/bsp \
 src/bsp/startup \
+src/hw/driver \
 src/hw \
+src/lib/Cube_L432k/Debug/Core/Src \
+src/lib/Cube_L432k/Debug/Core/Startup \
+src/lib/Cube_L432k/Debug \
+src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src \
 src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src \
 src \
 
