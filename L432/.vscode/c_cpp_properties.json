@@ -3,8 +3,13 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Inc"
+                "${workspaceFolder}/src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/src/hw",
+                "${workspaceFolder}/src/ap",
+                "${workspaceFolder}/src/lib",
+                "${workspaceFolder}/src/common",
+                "${workspaceFolder}/src/bsp",
+                "${workspaceFolder}/src"
             ],
             "defines": [
                 "_DEBUG",

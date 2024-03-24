@@ -9,7 +9,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk
+-include src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk
 -include src/hw/subdir.mk
 -include src/bsp/startup/subdir.mk
 -include src/bsp/subdir.mk

@@ -1,6 +1,5 @@
-../src/bsp/bsp.c:11:6:bspInit	40	static
-../src/bsp/bsp.c:49:6:delay	16	static
-../src/bsp/bsp.c:53:10:millis	4	static
-../src/bsp/bsp.c:60:6:SystemClock_Config	96	static
-../src/bsp/bsp.c:118:6:HAL_TIM_PeriodElapsedCallback	16	static
-../src/bsp/bsp.c:135:6:Error_Handler	4	static,ignoring_inline_asm
+../src/bsp/bsp.c:11:6:bspInit	24	static
+../src/bsp/bsp.c:23:6:delay	16	static
+../src/bsp/bsp.c:27:10:millis	8	static
+../src/bsp/bsp.c:34:6:SystemClock_Config	96	static
+../src/bsp/bsp.c:88:6:Error_Handler	4	static,ignoring_inline_asm

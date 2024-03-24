@@ -260,3 +260,320 @@ Finished building: default.size.stdout
  
 Finished building: L432.list
  
+00:51:00 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+../src/bsp/bsp.c: In function 'bspInit':
+../src/bsp/bsp.c:14:20: warning: unused variable 'GPIO_InitStruct' [-Wunused-variable]
+   14 |   GPIO_InitTypeDef GPIO_InitStruct = {0};
+      |                    ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "L432.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\capstone\L432\src\bsp\ldscripit\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L432.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L432.elf
+ 
+arm-none-eabi-size  L432.elf 
+arm-none-eabi-objdump -h -S L432.elf  > "L432.list"
+   text	   data	    bss	    dec	    hex	filename
+   6052	     16	   1648	   7716	   1e24	L432.elf
+Finished building: default.size.stdout
+ 
+Finished building: L432.list
+ 
+00:56:24 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/cube_L432/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_it.d" -MT"src/bsp/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_it.o"
+arm-none-eabi-gcc -o "L432.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\capstone\L432\src\bsp\ldscripit\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L432.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L432.elf
+ 
+arm-none-eabi-size  L432.elf 
+arm-none-eabi-objdump -h -S L432.elf  > "L432.list"
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+Finished building: L432.list
+ 
+00:56:30 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+00:57:00 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+00:58:24 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+01:00:18 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+01:00:38 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+01:01:16 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+01:03:12 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+01:03:35 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+01:04:50 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+01:05:48 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:21:13 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:23:05 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:23:18 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:25:17 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:25:33 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:35:07 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:35:47 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:36:36 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:38:27 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-size  L432.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6072	     20	   1644	   7736	   1e38	L432.elf
+Finished building: default.size.stdout
+ 
+11:55:39 **** Clean-only build of configuration Debug for project L432 ****
+make -j12 clean 
+rm -rf ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_can.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d
+rm -rf ./src/hw/hw.cyclo ./src/hw/hw.d ./src/hw/hw.o ./src/hw/hw.su
+rm -rf ./src/bsp/startup/startup_stm32l432kcux.d ./src/bsp/startup/startup_stm32l432kcux.o
+rm -rf ./src/bsp/bsp.cyclo ./src/bsp/bsp.d ./src/bsp/bsp.o ./src/bsp/bsp.su ./src/bsp/stm32l4xx_hal_msp.cyclo ./src/bsp/stm32l4xx_hal_msp.d ./src/bsp/stm32l4xx_hal_msp.o ./src/bsp/stm32l4xx_hal_msp.su ./src/bsp/stm32l4xx_hal_timebase_tim.cyclo ./src/bsp/stm32l4xx_hal_timebase_tim.d ./src/bsp/stm32l4xx_hal_timebase_tim.o ./src/bsp/stm32l4xx_hal_timebase_tim.su ./src/bsp/stm32l4xx_it.cyclo ./src/bsp/stm32l4xx_it.d ./src/bsp/stm32l4xx_it.o ./src/bsp/stm32l4xx_it.su ./src/bsp/syscalls.cyclo ./src/bsp/syscalls.d ./src/bsp/syscalls.o ./src/bsp/syscalls.su ./src/bsp/sysmem.cyclo ./src/bsp/sysmem.d ./src/bsp/sysmem.o ./src/bsp/sysmem.su ./src/bsp/system_stm32l4xx.cyclo ./src/bsp/system_stm32l4xx.d ./src/bsp/system_stm32l4xx.o ./src/bsp/system_stm32l4xx.su
+rm -rf ./src/ap/ap.cyclo ./src/ap/ap.d ./src/ap/ap.o ./src/ap/ap.su
+rm -rf ./src/main.cyclo ./src/main.d ./src/main.o ./src/main.su
+rm -rf ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.su ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.cyclo ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o ./src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.su
+rm -rf L432.elf L432.list L432.map default.size.stdout
+ 
+11:55:39 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c:36:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c:50:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c:48:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c:51:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c:86:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:88:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c:61:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c:91:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c:104:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c:323:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:106:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:25:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29:10: fatal error: stm32l4xx_hal_conf.h: No such file or directory
+   29 | #include "stm32l4xx_hal_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o] Error 1
+make: *** [src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:73: src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+11:58:13 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../src/hw/hw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/hw.d" -MT"src/hw/hw.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/hw.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"src/bsp/startup/startup_stm32l432kcux.d" -MT"src/bsp/startup/startup_stm32l432kcux.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/startup/startup_stm32l432kcux.o" "../src/bsp/startup/startup_stm32l432kcux.s"
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_hal_msp.d" -MT"src/bsp/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_it.d" -MT"src/bsp/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_it.o"
+arm-none-eabi-gcc "../src/bsp/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/syscalls.d" -MT"src/bsp/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/syscalls.o"
+../src/bsp/bsp.c:92:36: error: unknown type name 'TIM_HandleTypeDef'; did you mean 'EXTI_HandleTypeDef'?
+   92 | void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+      |                                    ^~~~~~~~~~~~~~~~~
+      |                                    EXTI_HandleTypeDef
+make: *** [src/bsp/subdir.mk:34: src/bsp/bsp.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+11:59:16 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+arm-none-eabi-gcc "../src/bsp/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/sysmem.d" -MT"src/bsp/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/sysmem.o"
+arm-none-eabi-gcc "../src/bsp/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/system_stm32l4xx.d" -MT"src/bsp/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/system_stm32l4xx.o"
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "L432.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\capstone\L432\src\bsp\ldscripit\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L432.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L432.elf
+ 
+arm-none-eabi-size  L432.elf 
+arm-none-eabi-objdump -h -S L432.elf  > "L432.list"
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	L432.elf
+Finished building: default.size.stdout
+ 
+Finished building: L432.list
+ 
