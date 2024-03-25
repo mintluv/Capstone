@@ -15,7 +15,8 @@
         "stdint.h": "c",
         "stm32l4xx_hal_def.h": "c",
         "bsp.h": "c",
-        "stm32l4xx_hal.h": "c"
+        "stm32l4xx_hal.h": "c",
+        "cstdint": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
     "makefile.makefilePath": "Debug"

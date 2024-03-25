@@ -1,0 +1,13 @@
+/*
+ * uart.h
+ *
+ *  Created on: Mar 25, 2024
+ *      Author: Min
+ */
+
+#ifndef SRC_COMMON_HW_INCLUDE_UART_H_
+#define SRC_COMMON_HW_INCLUDE_UART_H_
+
+
+
+#endif /* SRC_COMMON_HW_INCLUDE_UART_H_ */

@@ -25,7 +25,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32l4xx_hal_def.h"
-#include <stdint.h>
 
 /** @addtogroup STM32L4xx_HAL_Driver
   * @{

@@ -12,4 +12,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#define _DEF_UART1      0
+#define _DEF_UART2      1
+
+
 #endif /* SRC_COMMON_DEF_H_ */
