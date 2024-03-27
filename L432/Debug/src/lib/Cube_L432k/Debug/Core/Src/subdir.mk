@@ -7,6 +7,7 @@
 O_SRCS += \
 ../src/lib/Cube_L432k/Debug/Core/Src/gpio.o \
 ../src/lib/Cube_L432k/Debug/Core/Src/main.o \
+../src/lib/Cube_L432k/Debug/Core/Src/spi.o \
 ../src/lib/Cube_L432k/Debug/Core/Src/stm32l4xx_hal_msp.o \
 ../src/lib/Cube_L432k/Debug/Core/Src/stm32l4xx_it.o \
 ../src/lib/Cube_L432k/Debug/Core/Src/syscalls.o \

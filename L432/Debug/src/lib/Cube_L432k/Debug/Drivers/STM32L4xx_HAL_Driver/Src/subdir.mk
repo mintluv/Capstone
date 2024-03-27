@@ -16,14 +16,19 @@ O_SRCS += \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o \
+../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.o \
+../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o \
+../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o \
+../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o \
 ../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o \
-../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o 
+../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o \
+../src/lib/Cube_L432k/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes

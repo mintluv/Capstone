@@ -1,4 +1,4 @@
-C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:417:26:SWAPBYTE	1
+C:/Capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:417:26:SWAPBYTE	1
 ../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:102:20:USBD_StdDevReq	12
 ../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:165:20:USBD_StdItfReq	12
 ../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:237:20:USBD_StdEPReq	41
