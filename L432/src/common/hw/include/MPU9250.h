@@ -21,6 +21,7 @@
 // Libraries
 #include "hw_def.h"
 #include "spi.h"
+#include "stm32l432xx.h"
 
 // Constants
 #define RAD2DEG 57.2957795131

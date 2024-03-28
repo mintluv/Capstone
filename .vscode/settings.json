@@ -8,6 +8,7 @@
         "hw_def.h": "c",
         "def.h": "c",
         "mpu9250.h": "c",
-        "spi.h": "c"
+        "spi.h": "c",
+        "stm32l432xx.h": "c"
     }
 }
