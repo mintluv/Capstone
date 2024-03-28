@@ -12,12 +12,17 @@ void apInit(void){
 }
 
 void apMain(void){
-  while(1){
+  uint32_t pre_time;
+
+
+  pre_time = millis();
+  while(1)
+  {
+    if (millis()-pre_time >= 100)
+    {
+      pre_time = millis();
       ledToggle(0);
-      delay(500);
-      ledToggle(1);
-      printf("test");
-      delay(500);
+    }
   }
 }
 
