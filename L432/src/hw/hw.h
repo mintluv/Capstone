@@ -11,6 +11,7 @@
 #include "hw_def.h"
 
 #include "led.h"
+#include "MPU9250.h"
 
 void hwInit(void);
 

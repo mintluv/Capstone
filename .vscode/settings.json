@@ -3,6 +3,11 @@
         "main.h": "c",
         "ap.h": "c",
         "hw.h": "c",
-        "led.h": "c"
+        "led.h": "c",
+        "cmath": "c",
+        "hw_def.h": "c",
+        "def.h": "c",
+        "mpu9250.h": "c",
+        "spi.h": "c"
     }
 }
