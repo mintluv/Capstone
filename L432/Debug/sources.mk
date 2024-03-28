@@ -42,9 +42,4 @@ src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src \
 src/lib/Cube_L432k/USB_DEVICE/App \
 src/lib/Cube_L432k/USB_DEVICE/Target \
 src \
-src/lib/cube_L432/Debug/Core/Src \
-src/lib/cube_L432/Debug/Core/Startup \
-src/lib/cube_L432/Debug/Drivers/STM32L4xx_HAL_Driver/Src \
-src/lib/cube_L432/Debug \
-src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src \
 
