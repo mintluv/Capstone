@@ -9,11 +9,6 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include src/lib/cube_L432/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk
--include src/lib/cube_L432/Debug/Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk
--include src/lib/cube_L432/Debug/Core/Startup/subdir.mk
--include src/lib/cube_L432/Debug/Core/Src/subdir.mk
--include src/lib/cube_L432/Debug/subdir.mk
 -include src/lib/Cube_L432k/USB_DEVICE/Target/subdir.mk
 -include src/lib/Cube_L432k/USB_DEVICE/App/subdir.mk
 -include src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/subdir.mk

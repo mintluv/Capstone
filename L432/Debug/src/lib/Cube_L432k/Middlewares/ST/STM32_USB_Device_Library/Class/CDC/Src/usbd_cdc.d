@@ -40,6 +40,8 @@ src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cd
  C:/Capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
  C:/Capstone/L432/src/common/hw/include/led.h \
  C:/Capstone/L432/src/hw/hw_def.h \
+ C:/Capstone/L432/src/common/hw/include/MPU9250.h \
+ C:/Capstone/L432/src/common/hw/include/spi.h \
  C:/Capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  C:/Capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  C:/Capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
@@ -87,6 +89,8 @@ C:/Capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_h
 C:/Capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
 C:/Capstone/L432/src/common/hw/include/led.h:
 C:/Capstone/L432/src/hw/hw_def.h:
+C:/Capstone/L432/src/common/hw/include/MPU9250.h:
+C:/Capstone/L432/src/common/hw/include/spi.h:
 C:/Capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 C:/Capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 C:/Capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:

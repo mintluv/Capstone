@@ -1,0 +1,10 @@
+../src/hw/driver/MPU9250.c:13:9:MPU_begin	2
+../src/hw/driver/MPU9250.c:48:6:MPU_REG_WRITE	1
+../src/hw/driver/MPU9250.c:62:6:MPU_REG_READ	1
+../src/hw/driver/MPU9250.c:74:6:MPU_CS	1
+../src/hw/driver/MPU9250.c:83:6:MPU_writeAccFullScaleRange	5
+../src/hw/driver/MPU9250.c:124:6:MPU_writeGyroFullScaleRange	5
+../src/hw/driver/MPU9250.c:164:6:MPU_readRawData	1
+../src/hw/driver/MPU9250.c:186:6:MPU_calibrateGyro	3
+../src/hw/driver/MPU9250.c:218:6:MPU_readProcessedData	1
+../src/hw/driver/MPU9250.c:242:6:MPU_calcAttitude	1
