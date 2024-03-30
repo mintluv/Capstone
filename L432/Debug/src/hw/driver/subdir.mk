@@ -5,6 +5,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+<<<<<<< HEAD
 ../src/hw/driver/MPU9250.c \
 ../src/hw/driver/led.c \
 ../src/hw/driver/spi.c \
@@ -20,6 +21,17 @@ C_DEPS += \
 ./src/hw/driver/MPU9250.d \
 ./src/hw/driver/led.d \
 ./src/hw/driver/spi.d \
+=======
+../src/hw/driver/led.c \
+../src/hw/driver/uart.c 
+
+OBJS += \
+./src/hw/driver/led.o \
+./src/hw/driver/uart.o 
+
+C_DEPS += \
+./src/hw/driver/led.d \
+>>>>>>> main
 ./src/hw/driver/uart.d 
 
 
@@ -30,7 +42,11 @@ src/hw/driver/%.o src/hw/driver/%.su src/hw/driver/%.cyclo: ../src/hw/driver/%.c
 clean: clean-src-2f-hw-2f-driver
 
 clean-src-2f-hw-2f-driver:
+<<<<<<< HEAD
 	-$(RM) ./src/hw/driver/MPU9250.cyclo ./src/hw/driver/MPU9250.d ./src/hw/driver/MPU9250.o ./src/hw/driver/MPU9250.su ./src/hw/driver/led.cyclo ./src/hw/driver/led.d ./src/hw/driver/led.o ./src/hw/driver/led.su ./src/hw/driver/spi.cyclo ./src/hw/driver/spi.d ./src/hw/driver/spi.o ./src/hw/driver/spi.su ./src/hw/driver/uart.cyclo ./src/hw/driver/uart.d ./src/hw/driver/uart.o ./src/hw/driver/uart.su
+=======
+	-$(RM) ./src/hw/driver/led.cyclo ./src/hw/driver/led.d ./src/hw/driver/led.o ./src/hw/driver/led.su ./src/hw/driver/uart.cyclo ./src/hw/driver/uart.d ./src/hw/driver/uart.o ./src/hw/driver/uart.su
+>>>>>>> main
 
 .PHONY: clean-src-2f-hw-2f-driver
 

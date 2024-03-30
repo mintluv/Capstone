@@ -1881,3 +1881,1257 @@ arm-none-eabi-size  L432.elf
   39908	    384	   6504	  46796	   b6cc	L432.elf
 Finished building: default.size.stdout
  
+22:44:32 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.d" -MT"src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usb_device.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usb_device.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usb_device.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usb_device.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c: In function 'Get_SerialNum':
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:394:17: warning: 'deviceserial0' is used uninitialized [-Wuninitialized]
+  394 |   deviceserial0 += deviceserial2;
+      |   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:394:17: warning: 'deviceserial2' is used uninitialized [-Wuninitialized]
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:399:5: warning: 'deviceserial1' may be used uninitialized [-Wmaybe-uninitialized]
+  399 |     IntToUnicode(deviceserial1, &USBD_StringSerial[18], 4);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.d" -MT"src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.o"
+arm-none-eabi-gcc "../src/hw/driver/led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/led.d" -MT"src/hw/driver/led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/led.o"
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+arm-none-eabi-gcc "../src/hw/hw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/hw.d" -MT"src/hw/hw.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/hw.o"
+arm-none-eabi-gcc "../src/common/core/qbuffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/common/core/qbuffer.d" -MT"src/common/core/qbuffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/common/core/qbuffer.o"
+../src/hw/driver/uart.c:8:1: error: unknown type name 'UART_HandleTypeDef'
+    8 | UART_HandleTypeDef huart1;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:9:1: error: unknown type name 'UART_HandleTypeDef'
+    9 | UART_HandleTypeDef huart2;
+      | ^~~~~~~~~~~~~~~~~~
+In file included from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/common/hw/include/uart.h:22:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+   22 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...);
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:36:15: error: request for member 'Instance' in something not a structure or union
+   36 |         huart1.Instance = USART1;
+      |               ^
+../src/hw/driver/uart.c:37:15: error: request for member 'Init' in something not a structure or union
+   37 |         huart1.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:38:15: error: request for member 'Init' in something not a structure or union
+   38 |         huart1.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:39:15: error: request for member 'Init' in something not a structure or union
+   39 |         huart1.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:40:15: error: request for member 'Init' in something not a structure or union
+   40 |         huart1.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:41:15: error: request for member 'Init' in something not a structure or union
+   41 |         huart1.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:42:15: error: request for member 'Init' in something not a structure or union
+   42 |         huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:43:15: error: request for member 'Init' in something not a structure or union
+   43 |         huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:44:15: error: request for member 'Init' in something not a structure or union
+   44 |         huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:45:15: error: request for member 'AdvancedInit' in something not a structure or union
+   45 |         huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:46:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         if (HAL_UART_Init(&huart1) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:66:15: error: request for member 'Instance' in something not a structure or union
+   66 |         huart2.Instance = USART2;
+      |               ^
+../src/hw/driver/uart.c:67:15: error: request for member 'Init' in something not a structure or union
+   67 |         huart2.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:68:15: error: request for member 'Init' in something not a structure or union
+   68 |         huart2.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:69:15: error: request for member 'Init' in something not a structure or union
+   69 |         huart2.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:70:15: error: request for member 'Init' in something not a structure or union
+   70 |         huart2.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:71:15: error: request for member 'Init' in something not a structure or union
+   71 |         huart2.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:72:15: error: request for member 'Init' in something not a structure or union
+   72 |         huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:73:15: error: request for member 'Init' in something not a structure or union
+   73 |         huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:74:15: error: request for member 'Init' in something not a structure or union
+   74 |         huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:75:15: error: request for member 'AdvancedInit' in something not a structure or union
+   75 |         huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:76:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   76 |         if (HAL_UART_Init(&huart2) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:25:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   25 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:92:15: error: 'cdcAvail' undeclared (first use in this function)
+   92 |         ret = cdcAvail
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:92:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:92:23: error: expected ';' before 'break'
+   92 |         ret = cdcAvail
+      |                       ^
+      |                       ;
+   93 |         break;
+      |         ~~~~~          
+../src/hw/driver/uart.c:88:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   88 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: At top level:
+../src/hw/driver/uart.c:102:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+  102 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...){
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/hw/driver/uart.c: In function 'uartInit':
+../src/hw/driver/uart.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:86:1: warning: control reaches end of non-void function [-Wreturn-type]
+   86 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+   95 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:46:36 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_hal_msp.d" -MT"src/bsp/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_it.d" -MT"src/bsp/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_it.o"
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+../src/hw/driver/uart.c:8:1: error: unknown type name 'UART_HandleTypeDef'
+    8 | UART_HandleTypeDef huart1;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:9:1: error: unknown type name 'UART_HandleTypeDef'
+    9 | UART_HandleTypeDef huart2;
+      | ^~~~~~~~~~~~~~~~~~
+In file included from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/common/hw/include/uart.h:22:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+   22 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...);
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:36:15: error: request for member 'Instance' in something not a structure or union
+   36 |         huart1.Instance = USART1;
+      |               ^
+../src/hw/driver/uart.c:37:15: error: request for member 'Init' in something not a structure or union
+   37 |         huart1.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:38:15: error: request for member 'Init' in something not a structure or union
+   38 |         huart1.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:39:15: error: request for member 'Init' in something not a structure or union
+   39 |         huart1.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:40:15: error: request for member 'Init' in something not a structure or union
+   40 |         huart1.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:41:15: error: request for member 'Init' in something not a structure or union
+   41 |         huart1.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:42:15: error: request for member 'Init' in something not a structure or union
+   42 |         huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:43:15: error: request for member 'Init' in something not a structure or union
+   43 |         huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:44:15: error: request for member 'Init' in something not a structure or union
+   44 |         huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:45:15: error: request for member 'AdvancedInit' in something not a structure or union
+   45 |         huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:46:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         if (HAL_UART_Init(&huart1) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:66:15: error: request for member 'Instance' in something not a structure or union
+   66 |         huart2.Instance = USART2;
+      |               ^
+../src/hw/driver/uart.c:67:15: error: request for member 'Init' in something not a structure or union
+   67 |         huart2.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:68:15: error: request for member 'Init' in something not a structure or union
+   68 |         huart2.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:69:15: error: request for member 'Init' in something not a structure or union
+   69 |         huart2.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:70:15: error: request for member 'Init' in something not a structure or union
+   70 |         huart2.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:71:15: error: request for member 'Init' in something not a structure or union
+   71 |         huart2.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:72:15: error: request for member 'Init' in something not a structure or union
+   72 |         huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:73:15: error: request for member 'Init' in something not a structure or union
+   73 |         huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:74:15: error: request for member 'Init' in something not a structure or union
+   74 |         huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:75:15: error: request for member 'AdvancedInit' in something not a structure or union
+   75 |         huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:76:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   76 |         if (HAL_UART_Init(&huart2) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:25:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   25 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:97:15: error: 'cdcAvail' undeclared (first use in this function)
+   97 |         ret = cdcAvail
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:97:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:97:23: error: expected ';' before 'break'
+   97 |         ret = cdcAvail
+      |                       ^
+      |                       ;
+   98 |         break;
+      |         ~~~~~          
+../src/hw/driver/uart.c:93:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   93 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: At top level:
+../src/hw/driver/uart.c:107:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+  107 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...){
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/ap/ap.c: In function 'apMain':
+../src/hw/driver/uart.c:176:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  176 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/ap/ap.c:24:17: error: '_DEF_LED1' undeclared (first use in this function)
+   24 |       ledToggle(_DEF_LED1);
+      |                 ^~~~~~~~~
+../src/ap/ap.c:24:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/ap/subdir.mk:19: src/ap/ap.o] Error 1
+make: *** Waiting for unfinished jobs....
+../src/hw/driver/uart.c:181:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  181 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:183:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  183 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:188:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  188 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:232:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  232 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:232:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  232 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartInit':
+../src/hw/driver/uart.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+   91 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+  106 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:49:01 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+../src/hw/driver/uart.c:8:1: error: unknown type name 'UART_HandleTypeDef'
+    8 | UART_HandleTypeDef huart1;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:9:1: error: unknown type name 'UART_HandleTypeDef'
+    9 | UART_HandleTypeDef huart2;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:36:15: error: request for member 'Instance' in something not a structure or union
+   36 |         huart1.Instance = USART1;
+      |               ^
+../src/hw/driver/uart.c:37:15: error: request for member 'Init' in something not a structure or union
+   37 |         huart1.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:38:15: error: request for member 'Init' in something not a structure or union
+   38 |         huart1.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:39:15: error: request for member 'Init' in something not a structure or union
+   39 |         huart1.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:40:15: error: request for member 'Init' in something not a structure or union
+   40 |         huart1.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:41:15: error: request for member 'Init' in something not a structure or union
+   41 |         huart1.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:42:15: error: request for member 'Init' in something not a structure or union
+   42 |         huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:43:15: error: request for member 'Init' in something not a structure or union
+   43 |         huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:44:15: error: request for member 'Init' in something not a structure or union
+   44 |         huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:45:15: error: request for member 'AdvancedInit' in something not a structure or union
+   45 |         huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:46:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         if (HAL_UART_Init(&huart1) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:66:15: error: request for member 'Instance' in something not a structure or union
+   66 |         huart2.Instance = USART2;
+      |               ^
+../src/hw/driver/uart.c:67:15: error: request for member 'Init' in something not a structure or union
+   67 |         huart2.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:68:15: error: request for member 'Init' in something not a structure or union
+   68 |         huart2.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:69:15: error: request for member 'Init' in something not a structure or union
+   69 |         huart2.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:70:15: error: request for member 'Init' in something not a structure or union
+   70 |         huart2.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:71:15: error: request for member 'Init' in something not a structure or union
+   71 |         huart2.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:72:15: error: request for member 'Init' in something not a structure or union
+   72 |         huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:73:15: error: request for member 'Init' in something not a structure or union
+   73 |         huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:74:15: error: request for member 'Init' in something not a structure or union
+   74 |         huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:75:15: error: request for member 'AdvancedInit' in something not a structure or union
+   75 |         huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:76:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   76 |         if (HAL_UART_Init(&huart2) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:25:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   25 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:97:15: error: 'cdcAvail' undeclared (first use in this function)
+   97 |         ret = cdcAvail
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:97:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:97:23: error: expected ';' before 'break'
+   97 |         ret = cdcAvail
+      |                       ^
+      |                       ;
+   98 |         break;
+      |         ~~~~~          
+../src/hw/driver/uart.c:93:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   93 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: At top level:
+../src/hw/driver/uart.c:107:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+  107 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...){
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/ap/ap.c: In function 'apMain':
+../src/ap/ap.c:24:17: error: '_DEF_LED1' undeclared (first use in this function)
+   24 |       ledToggle(_DEF_LED1);
+      |                 ^~~~~~~~~
+../src/ap/ap.c:24:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:176:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  176 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+make: *** [src/ap/subdir.mk:19: src/ap/ap.o] Error 1
+make: *** Waiting for unfinished jobs....
+../src/hw/driver/uart.c:181:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  181 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:183:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  183 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:188:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  188 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:232:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  232 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:232:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  232 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartInit':
+../src/hw/driver/uart.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+   91 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+  106 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:49:42 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_it.d" -MT"src/bsp/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_it.o"
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+../src/hw/driver/uart.c:8:1: error: unknown type name 'UART_HandleTypeDef'
+    8 | UART_HandleTypeDef huart1;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:9:1: error: unknown type name 'UART_HandleTypeDef'
+    9 | UART_HandleTypeDef huart2;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:36:15: error: request for member 'Instance' in something not a structure or union
+   36 |         huart1.Instance = USART1;
+      |               ^
+../src/hw/driver/uart.c:37:15: error: request for member 'Init' in something not a structure or union
+   37 |         huart1.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:38:15: error: request for member 'Init' in something not a structure or union
+   38 |         huart1.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:39:15: error: request for member 'Init' in something not a structure or union
+   39 |         huart1.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:40:15: error: request for member 'Init' in something not a structure or union
+   40 |         huart1.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:41:15: error: request for member 'Init' in something not a structure or union
+   41 |         huart1.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:42:15: error: request for member 'Init' in something not a structure or union
+   42 |         huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:43:15: error: request for member 'Init' in something not a structure or union
+   43 |         huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:44:15: error: request for member 'Init' in something not a structure or union
+   44 |         huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:45:15: error: request for member 'AdvancedInit' in something not a structure or union
+   45 |         huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:46:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   46 |         if (HAL_UART_Init(&huart1) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:66:15: error: request for member 'Instance' in something not a structure or union
+   66 |         huart2.Instance = USART2;
+      |               ^
+../src/hw/driver/uart.c:67:15: error: request for member 'Init' in something not a structure or union
+   67 |         huart2.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:68:15: error: request for member 'Init' in something not a structure or union
+   68 |         huart2.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:69:15: error: request for member 'Init' in something not a structure or union
+   69 |         huart2.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:70:15: error: request for member 'Init' in something not a structure or union
+   70 |         huart2.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:71:15: error: request for member 'Init' in something not a structure or union
+   71 |         huart2.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:72:15: error: request for member 'Init' in something not a structure or union
+   72 |         huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:73:15: error: request for member 'Init' in something not a structure or union
+   73 |         huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:74:15: error: request for member 'Init' in something not a structure or union
+   74 |         huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:75:15: error: request for member 'AdvancedInit' in something not a structure or union
+   75 |         huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:76:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   76 |         if (HAL_UART_Init(&huart2) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:25:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   25 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:97:15: error: 'cdcAvail' undeclared (first use in this function)
+   97 |         ret = cdcAvail
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:97:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:97:23: error: expected ';' before 'break'
+   97 |         ret = cdcAvail
+      |                       ^
+      |                       ;
+   98 |         break;
+      |         ~~~~~          
+../src/hw/driver/uart.c:93:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   93 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: At top level:
+../src/hw/driver/uart.c:107:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+  107 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...){
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:176:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  176 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:181:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  181 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:183:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  183 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:188:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  188 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:232:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  232 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:232:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  232 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartInit':
+../src/hw/driver/uart.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+   91 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+  106 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:50:30 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+../src/hw/driver/uart.c:8:1: error: unknown type name 'UART_HandleTypeDef'
+    8 | UART_HandleTypeDef huart1;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:9:1: error: unknown type name 'UART_HandleTypeDef'
+    9 | UART_HandleTypeDef huart2;
+      | ^~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:37:15: error: request for member 'Instance' in something not a structure or union
+   37 |         huart1.Instance = USART1;
+      |               ^
+../src/hw/driver/uart.c:38:15: error: request for member 'Init' in something not a structure or union
+   38 |         huart1.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:39:15: error: request for member 'Init' in something not a structure or union
+   39 |         huart1.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:40:15: error: request for member 'Init' in something not a structure or union
+   40 |         huart1.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:41:15: error: request for member 'Init' in something not a structure or union
+   41 |         huart1.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:42:15: error: request for member 'Init' in something not a structure or union
+   42 |         huart1.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:43:15: error: request for member 'Init' in something not a structure or union
+   43 |         huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:44:15: error: request for member 'Init' in something not a structure or union
+   44 |         huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:45:15: error: request for member 'Init' in something not a structure or union
+   45 |         huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:46:15: error: request for member 'AdvancedInit' in something not a structure or union
+   46 |         huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:47:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |         if (HAL_UART_Init(&huart1) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:67:15: error: request for member 'Instance' in something not a structure or union
+   67 |         huart2.Instance = USART2;
+      |               ^
+../src/hw/driver/uart.c:68:15: error: request for member 'Init' in something not a structure or union
+   68 |         huart2.Init.BaudRate = 115200;
+      |               ^
+../src/hw/driver/uart.c:69:15: error: request for member 'Init' in something not a structure or union
+   69 |         huart2.Init.WordLength = UART_WORDLENGTH_8B;
+      |               ^
+../src/hw/driver/uart.c:70:15: error: request for member 'Init' in something not a structure or union
+   70 |         huart2.Init.StopBits = UART_STOPBITS_1;
+      |               ^
+../src/hw/driver/uart.c:71:15: error: request for member 'Init' in something not a structure or union
+   71 |         huart2.Init.Parity = UART_PARITY_NONE;
+      |               ^
+../src/hw/driver/uart.c:72:15: error: request for member 'Init' in something not a structure or union
+   72 |         huart2.Init.Mode = UART_MODE_TX_RX;
+      |               ^
+../src/hw/driver/uart.c:73:15: error: request for member 'Init' in something not a structure or union
+   73 |         huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |               ^
+../src/hw/driver/uart.c:74:15: error: request for member 'Init' in something not a structure or union
+   74 |         huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+      |               ^
+../src/hw/driver/uart.c:75:15: error: request for member 'Init' in something not a structure or union
+   75 |         huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |               ^
+../src/hw/driver/uart.c:76:15: error: request for member 'AdvancedInit' in something not a structure or union
+   76 |         huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |               ^
+../src/hw/driver/uart.c:77:27: warning: passing argument 1 of 'HAL_UART_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+   77 |         if (HAL_UART_Init(&huart2) != HAL_OK)
+      |                           ^~~~~~~
+      |                           |
+      |                           int *
+In file included from C:/capstone/L432/src/bsp/stm32l4xx_hal_conf.h:450,
+                 from C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from C:/capstone/L432/src/bsp/bsp.h:13,
+                 from C:/capstone/L432/src/hw/hw_def.h:13,
+                 from C:/capstone/L432/src/common/hw/include/uart.h:11,
+                 from ../src/hw/driver/uart.c:11:
+C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1670:53: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'int *'
+ 1670 | HAL_StatusTypeDef HAL_UART_Init(UART_HandleTypeDef *huart);
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~
+../src/hw/driver/uart.c:26:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   26 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:98:15: error: 'cdcAvail' undeclared (first use in this function)
+   98 |         ret = cdcAvail
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:98:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:98:23: error: expected ';' before 'break'
+   98 |         ret = cdcAvail
+      |                       ^
+      |                       ;
+   99 |         break;
+      |         ~~~~~          
+../src/hw/driver/uart.c:94:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   94 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: At top level:
+../src/hw/driver/uart.c:108:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+  108 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...){
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:177:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  177 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:182:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  182 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:184:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  184 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:189:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  189 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:233:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:233:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+   92 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:57:55 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:26:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   26 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:98:15: error: 'cdcAvail' undeclared (first use in this function)
+   98 |         ret = cdcAvail
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:98:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:98:23: error: expected ';' before 'break'
+   98 |         ret = cdcAvail
+      |                       ^
+      |                       ;
+   99 |         break;
+      |         ~~~~~          
+../src/hw/driver/uart.c:94:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   94 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: At top level:
+../src/hw/driver/uart.c:108:21: error: unknown type name 'unit8_t'; did you mean 'uint8_t'?
+  108 | uint32_t uartPrintf(unit8_t ch, char *fmt, ...){
+      |                     ^~~~~~~
+      |                     uint8_t
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:177:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  177 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:182:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  182 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:184:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  184 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:189:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  189 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:233:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:233:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+   92 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:59:04 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:26:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   26 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:98:15: error: 'cdcAvail' undeclared (first use in this function)
+   98 |         ret = cdcAvail
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:98:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:98:23: error: expected ';' before 'break'
+   98 |         ret = cdcAvail
+      |                       ^
+      |                       ;
+   99 |         break;
+      |         ~~~~~          
+../src/hw/driver/uart.c:94:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   94 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:177:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  177 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:182:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  182 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:184:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  184 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:189:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  189 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:233:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:233:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+   92 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartPrintf':
+../src/hw/driver/uart.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+  110 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:59:22 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:26:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   26 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:98:15: error: 'cdcAvail' undeclared (first use in this function)
+   98 |         ret = cdcAvail;
+      |               ^~~~~~~~
+../src/hw/driver/uart.c:98:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:94:14: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   94 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:177:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  177 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:182:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  182 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:184:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  184 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:189:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  189 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:233:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:233:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+   92 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartPrintf':
+../src/hw/driver/uart.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+  110 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:59:35 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:26:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   26 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:94:14: warning: unused variable 'ret' [-Wunused-variable]
+   94 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:177:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  177 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:177:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/hw/driver/uart.c:182:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  182 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:184:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  184 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:189:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  189 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:233:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:233:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+   92 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartPrintf':
+../src/hw/driver/uart.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+  110 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:42:32 **** Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.d" -MT"src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usb_device.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usb_device.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usb_device.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usb_device.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_hal_msp.d" -MT"src/bsp/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_it.d" -MT"src/bsp/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_it.o"
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:26:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   26 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:94:14: warning: unused variable 'ret' [-Wunused-variable]
+   94 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspInit':
+../src/hw/driver/uart.c:177:27: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  177 |     GPIO_InitStruct.Pin = VCP_TX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:177:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c: In function 'Get_SerialNum':
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:394:17: warning: 'deviceserial0' is used uninitialized [-Wuninitialized]
+  394 |   deviceserial0 += deviceserial2;
+      |   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:394:17: warning: 'deviceserial2' is used uninitialized [-Wuninitialized]
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:399:5: warning: 'deviceserial1' may be used uninitialized [-Wmaybe-uninitialized]
+  399 |     IntToUnicode(deviceserial1, &USBD_StringSerial[18], 4);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:182:19: error: 'VCP_TX_GPIO_Port' undeclared (first use in this function)
+  182 |     HAL_GPIO_Init(VCP_TX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c:184:27: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  184 |     GPIO_InitStruct.Pin = VCP_RX_Pin;
+      |                           ^~~~~~~~~~
+../src/hw/driver/uart.c:189:19: error: 'VCP_RX_GPIO_Port' undeclared (first use in this function)
+  189 |     HAL_GPIO_Init(VCP_RX_GPIO_Port, &GPIO_InitStruct);
+      |                   ^~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'HAL_UART_MspDeInit':
+../src/hw/driver/uart.c:233:28: error: 'VCP_TX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                            ^~~~~~~~~~
+../src/hw/driver/uart.c:233:39: error: 'VCP_RX_Pin' undeclared (first use in this function)
+  233 |     HAL_GPIO_DeInit(GPIOA, VCP_TX_Pin|VCP_RX_Pin);
+      |                                       ^~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+   92 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartPrintf':
+../src/hw/driver/uart.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+  110 | }
+      | ^
+make: *** [src/hw/driver/subdir.mk:22: src/hw/driver/uart.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:43:32 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.d" -MT"src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/Target/usbd_conf.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usb_device.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usb_device.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usb_device.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usb_device.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.d" -MT"src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+arm-none-eabi-gcc "../src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d" -MT"src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+arm-none-eabi-gcc "../src/hw/driver/led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/led.d" -MT"src/hw/driver/led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/led.o"
+arm-none-eabi-gcc "../src/hw/driver/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/driver/uart.d" -MT"src/hw/driver/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/driver/uart.o"
+arm-none-eabi-gcc "../src/hw/hw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hw/hw.d" -MT"src/hw/hw.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hw/hw.o"
+arm-none-eabi-gcc "../src/bsp/bsp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/bsp.d" -MT"src/bsp/bsp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/bsp.o"
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c: In function 'Get_SerialNum':
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:394:17: warning: 'deviceserial0' is used uninitialized [-Wuninitialized]
+  394 |   deviceserial0 += deviceserial2;
+      |   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:394:17: warning: 'deviceserial2' is used uninitialized [-Wuninitialized]
+../src/lib/Cube_L432k/USB_DEVICE/App/usbd_desc.c:399:5: warning: 'deviceserial1' may be used uninitialized [-Wmaybe-uninitialized]
+  399 |     IntToUnicode(deviceserial1, &USBD_StringSerial[18], 4);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:26:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   26 |     bool ret =false;
+      |          ^~~
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:94:14: warning: unused variable 'ret' [-Wunused-variable]
+   94 |     uint32_t ret =0;
+      |              ^~~
+../src/hw/driver/uart.c: In function 'uartOpen':
+../src/hw/driver/uart.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+   92 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartAvaliable':
+../src/hw/driver/uart.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartRead':
+../src/hw/driver/uart.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartWrite':
+../src/hw/driver/uart.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+  107 | }
+      | ^
+../src/hw/driver/uart.c: In function 'uartPrintf':
+../src/hw/driver/uart.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+  110 | }
+      | ^
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_hal_msp.d" -MT"src/bsp/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../src/bsp/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/bsp/stm32l4xx_it.d" -MT"src/bsp/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/bsp/stm32l4xx_it.o"
+arm-none-eabi-gcc "../src/ap/ap.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/ap/ap.d" -MT"src/ap/ap.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/ap/ap.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "L432.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\capstone\L432\src\bsp\ldscripit\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L432.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L432.elf
+ 
+arm-none-eabi-size  L432.elf 
+arm-none-eabi-objdump -h -S L432.elf  > "L432.list"
+   text	   data	    bss	    dec	    hex	filename
+  37844	    292	   6308	  44444	   ad9c	L432.elf
+Finished building: default.size.stdout
+ 
+Finished building: L432.list
+ 
+00:18:43 **** Incremental Build of configuration Debug for project L432 ****
+make -j12 all 
+arm-none-eabi-gcc "../.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32L432xx -c -I"C:/capstone/L432/src" -I"C:/capstone/L432/src/ap" -I"C:/capstone/L432/src/bsp" -I"C:/capstone/L432/src/common" -I"C:/capstone/L432/src/hw" -I"C:/capstone/L432/src/lib" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Drivers/CMSIS/Include" -I"C:/capstone/L432/src/common/hw/include" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/Middlewares/ST/STM32_USB_Device_Library/Core/Inc" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/App" -I"C:/capstone/L432/src/lib/Cube_L432k/USB_DEVICE/Target" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.d" -MT".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o ".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o"
+arm-none-eabi-gcc -o "L432.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\capstone\L432\src\bsp\ldscripit\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="L432.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: L432.elf
+ 
+arm-none-eabi-size  L432.elf 
+arm-none-eabi-objdump -h -S L432.elf  > "L432.list"
+   text	   data	    bss	    dec	    hex	filename
+  37844	    292	   6308	  44444	   ad9c	L432.elf
+Finished building: default.size.stdout
+ 
+Finished building: L432.list
+ 

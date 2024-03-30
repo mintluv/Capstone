@@ -24,10 +24,12 @@ RM := rm -rf
 -include src/lib/Cube_L432k/Debug/subdir.mk
 -include src/hw/driver/subdir.mk
 -include src/hw/subdir.mk
+-include src/common/core/subdir.mk
 -include src/bsp/startup/subdir.mk
 -include src/bsp/subdir.mk
 -include src/ap/subdir.mk
 -include src/subdir.mk
+-include .metadata/.plugins/org.eclipse.cdt.managedbuilder.core/subdir.mk
 -include .metadata/.plugins/org.eclipse.cdt.make.core/subdir.mk
 -include objects.mk
 
