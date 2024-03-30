@@ -20,6 +20,8 @@ void apMain(void)
 
   MPU_begin(&hspi1, &mpu9250);
 
+  MPU_readRawData(&hspi1, &mpu9250);
+
   pre_time = millis();
   while (1)
   {
