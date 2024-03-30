@@ -11,7 +11,6 @@ void apInit(void)
 {
 }
 
-<<<<<<< HEAD
 void apMain(void)
 {
   SPI_HandleTypeDef hspi1;
@@ -27,16 +26,6 @@ void apMain(void)
   while (1)
   {
     if (millis() - pre_time >= 100)
-=======
-void apMain(void){
-  uint32_t pre_time;
-
-
-  pre_time = millis();
-  while(1)
-  {
-    if (millis()-pre_time >= 100)
->>>>>>> main
     {
       pre_time = millis();
       ledToggle(0);
