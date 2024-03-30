@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "main.h": "c",
-        "ap.h": "c",
-        "hw.h": "c",
-        "led.h": "c"
-    }
-}
