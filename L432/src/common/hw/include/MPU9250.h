@@ -8,16 +8,6 @@
 #ifndef SRC_COMMON_HW_INCLUDE_MPU9250_H_
 #define SRC_COMMON_HW_INCLUDE_MPU9250_H_
 
-/*
- * MPU9250.h
- *
- *  Created on: Mar 13, 2022
- *      Author: MarkSherstan
- */
-
-#ifndef INC_MPU9250_H_
-#define INC_MPU9250_H_
-
 // Libraries
 #include "hw_def.h"
 #include "spi.h"
@@ -100,7 +90,5 @@ void MPU_readProcessedData(SPI_HandleTypeDef *SPIx, MPU9250_t *pMPU9250);
 void MPU_calcAttitude(SPI_HandleTypeDef *SPIx, MPU9250_t *pMPU9250);
 void MPU_readRawData(SPI_HandleTypeDef *SPIx, MPU9250_t *pMPU9250);
 void MPU_CS(MPU9250_t *pMPU9250, uint8_t state);
-
-#endif /* INC_MPU9250_H_ */
 
 #endif /* SRC_COMMON_HW_INCLUDE_MPU9250_H_ */

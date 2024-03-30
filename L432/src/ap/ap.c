@@ -5,25 +5,28 @@
  *      Author: Min
  */
 
-
 #include "ap.h"
 
-void apInit(void){
+void apInit(void)
+{
 }
 
-void apMain(void){
+void apMain(void)
+{
+  SPI_HandleTypeDef hspi1;
+  MPU9250_t mpu9250;
+
   uint32_t pre_time;
 
+  MPU_begin(&hspi1, &mpu9250);
 
   pre_time = millis();
-  while(1)
+  while (1)
   {
-    if (millis()-pre_time >= 100)
+    if (millis() - pre_time >= 100)
     {
       pre_time = millis();
       ledToggle(0);
     }
   }
 }
-
-
