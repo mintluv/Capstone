@@ -26,6 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "bmp280.h"
 #include "MPU9250.h"
 #include "stdlib.h"
 #include "string.h"
@@ -53,6 +54,7 @@
 
 /* USER CODE BEGIN PV */
 MPU9250_t MPU9250;
+BaroData BMP280;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -111,6 +113,8 @@ int main(void)
   MX_TIM16_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+  /*MPU SETTING BEGIN*/
+
   if (MPU_begin(&hspi1, &MPU9250) == 0){
     printf("error");
     while (1)
@@ -121,16 +125,34 @@ int main(void)
   }
   MPU_calibrateGyro(&hspi1, &MPU9250,1500);
   MPU_calcAttitude(&hspi1, &MPU9250);
+
+  /*MPU SETTING END*/
+
+  /*BMP SETTING BEGIN*/
+  if (BARO_INIT(&hspi1) == 0){
+    printf("error");
+    while (1)
+    {
+      
+    }
+    
+  }
+
+  /*BMP SETTING END*/
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    MPU_readRawData(&hspi1, &MPU9250);
-    MPU_readProcessedData(&hspi1, &MPU9250);
-    printf("%f  %f  %f  %f  %f  %f \r \n",MPU9250.sensorData.ax,MPU9250.sensorData.ay,MPU9250.sensorData.az,MPU9250.sensorData.gx,MPU9250.sensorData.gy,MPU9250.sensorData.gz);
-  	HAL_Delay(100);
+    BMP280 = BARO_READ_DATA();
+    printf("%d  %f\r\n",BMP280.pressure,BMP280.temperature);
+    HAL_Delay(100);
+    //MPU_readRawData(&hspi1, &MPU9250);
+    //MPU_readProcessedData(&hspi1, &MPU9250);
+    //printf("%f  %f  %f  %f  %f  %f \r \n",MPU9250.sensorData.ax,MPU9250.sensorData.ay,MPU9250.sensorData.az,MPU9250.sensorData.gx,MPU9250.sensorData.gy,MPU9250.sensorData.gz);
+  	//HAL_Delay(100);
 
     /* USER CODE END WHILE */
 
