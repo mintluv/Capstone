@@ -28,6 +28,7 @@
 #define CS_SELECT         0
 #define CS_DESELECT       1
 #define SPI_TIMOUT_MS     1000
+// AK8963 registers
 
 // Full scale ranges
 enum gyroscopeFullScaleRange
@@ -51,7 +52,7 @@ typedef struct MPU9250
 {
     struct RawData
     {
-        int16_t ax, ay, az, gx, gy, gz;
+        int16_t ax, ay, az, gx, gy, gz, mx, my, mz;
     } rawData;
 
     struct SensorData
